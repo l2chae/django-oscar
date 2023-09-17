@@ -3,8 +3,7 @@
   "version": "3.2.1a",
   "description": "A domain-driven e-commerce framework for Django",
   "main": "index.js",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^6.4.0",
     "bootstrap": "^4.6.2",
