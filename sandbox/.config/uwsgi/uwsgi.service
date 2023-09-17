@@ -3,7 +3,7 @@ Description=uWSGI service
 After=syslog.target
 
 [Service]
-ExecStart=/home/ubuntu/oscar/bin/uwsgi -i /srv/django-oscar/sandbox/.config/uwsgi/sandboxini
+ExecStart=/home/ubuntu/oscar/bin/uwsgi -i /srv/django-oscar/sandbox/.config/uwsgi/uwsgi.ini
 
 Restart=always
 KillSignal=SIGQUIT
